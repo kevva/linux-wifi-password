@@ -1,0 +1,33 @@
+{
+  "name": "linux-wifi-password",
+  "version": "1.0.0",
+  "description": "Get current wifi password on Linux",
+  "license": "MIT",
+  "repository": "kevva/linux-wifi-password",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "linux",
+    "network",
+    "password",
+    "wifi"
+  ],
+  "dependencies": {
+    "wifi-name": "^1.0.9"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
