@@ -38,6 +38,24 @@ Type: `function`
 
 The callback will return the password to the network.
 
+## CLI
+```
+$ npm install --global linux-wifi-password
+```
+
+```
+linux-wifi-password --help
+
+Usage
+	Get password of SSID:
+		$ linux-wifi-password <ssid>
+	Get wifi password of current SSID
+		$ linux-wifi-password --current
+
+	Example
+		$ linux-wifi-password home-wi-fi
+		8011435002
+```
 
 ## License
 
