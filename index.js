@@ -13,7 +13,7 @@ function getPassword(ssid, cb) {
 			return;
 		}
 
-		ret = /^\s*psk=(.+)\s*$/gm.exec(stdout);
+		ret = /^\s*(?:psk|password)=(.+)\s*$/gm.exec(stdout);
 		ret = ret && ret.length ? ret[1] : null;
 
 		if (!ret) {
