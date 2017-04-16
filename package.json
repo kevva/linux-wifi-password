@@ -15,8 +15,10 @@
   "scripts": {
     "test": "node test.js"
   },
+  "bin": "cli.js",
   "files": [
-    "index.js"
+    "index.js",
+    "cli. js"
   ],
   "keywords": [
     "linux",
@@ -25,7 +27,8 @@
     "wifi"
   ],
   "dependencies": {
-    "wifi-name": "^1.0.9"
+    "wifi-name": "^1.0.9",
+    "meow": "^3.1.0"
   },
   "devDependencies": {
     "ava": "^0.0.4"
